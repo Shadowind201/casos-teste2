@@ -1,0 +1,14 @@
+{
+  "name": "casos-teste",
+  "version": "1.0.0",
+  "description": "exemplos de testes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Enzo",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
