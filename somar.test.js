@@ -31,5 +31,9 @@ test('Verificação de entrada inválida', ()=>{
 })
 
 test('Soma de grandes números', ()=>{
-    expect
+    expect(somar(999999999,999999999)).toBe('Caracter Invalido')
+})
+
+test(' Soma de dois números inteiros positivos', ()=>{
+    expect(somar('1','2')).toBe(3)
 })
